@@ -24,7 +24,7 @@ async function calc_line(line) {
         data.response.GeoObjectCollection.featureMember[0]) {
         recognized++;
         var single = data.response.GeoObjectCollection.featureMember[0].GeoObject;
-        var [lat, lng] = single.Point.pos.split(' ');
+        var [lng, lat] = single.Point.pos.split(' ');
         records.push({
             sgn: single.name,
             lat: lat,
