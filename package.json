@@ -19,7 +19,7 @@
   "homepage": "https://github.com/slayerokk/yandex-geocoder-coords-by-list#readme",
   "dependencies": {
     "axios": "^0.19.0",
-    "csv-writer": "^1.4.0",
-    "lodash": "^4.17.11"
+    "csv-writer": "^1.5.0",
+    "lodash": "^4.17.15"
   }
 }
